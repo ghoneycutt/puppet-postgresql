@@ -6,7 +6,7 @@
 # before/require metaparameter to make sure that the `params`
 # class is evaluated before any of the other classes in the module.
 #
-# Also note that this example includes automatic management of the yumrepo or 
+# Also note that this example includes automatic management of the yumrepo or
 # apt resource.  If you'd prefer to manage the repo yourself, simply pass
 # 'false' or omit the 'manage_repo' parameter--it defaults to 'false'.  You will
 # still need to use the 'postgresql' class to specify the postgres version

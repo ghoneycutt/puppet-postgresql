@@ -40,6 +40,6 @@ class postgresql_tests::system_default::test_grant_create($user, $password, $db)
     db          => $db,
     role        => $user,
     require     => [ Postgresql::Database[$db],
-                     Postgresql::Database_user[$user] ],
+                    Postgresql::Database_user[$user] ],
   }
 }
